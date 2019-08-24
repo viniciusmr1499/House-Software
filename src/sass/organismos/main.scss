@@ -1,0 +1,42 @@
+#main{
+    padding:3%;
+    margin: 2em 0 0 0;
+    .container{
+
+        h1.title{
+            font-size:2rem;
+            font-family: 'Open Sans', sans-serif;
+            text-align:center;
+            color:#1464f6;
+        }
+
+        .content{
+            position:relative;
+            margin:3em 0 ;
+            
+            .check-list{
+                // position:absolute;
+                float:left;
+                height:50px;
+                margin-right:8px;
+                width:50px;
+                background:#fff;
+                border:1px solid #252525;
+                border-radius:50%;
+                text-align: center;
+                padding:14px 0;
+                i.fa-check{
+                    font-size:1.3rem;
+                }
+            }
+
+            p{
+                clear: both;
+                padding-left:17.4%;
+                // text-align: justify;
+            }
+            
+        }
+
+    }
+}
