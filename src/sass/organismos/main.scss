@@ -2,14 +2,16 @@
     padding:3%;
     margin: 2em 0 0 0;
     .container{
-
+        // background:#f1f1f1;
+        // border:1px solid red;
         h1.title{
-            font-size:2rem;
+            font-size:2.1rem;
             font-family: 'Open Sans', sans-serif;
             text-align:center;
             color:#1464f6;
         }
 
+        // inicio do content
         .content{
             position:relative;
             margin:3em 0 ;
@@ -31,12 +33,61 @@
             }
 
             p{
+                font-size:1rem;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            p.text-justify{
                 clear: both;
                 padding-left:17.4%;
-                // text-align: justify;
             }
             
-        }
+            //titulo principal da  galeria
+            .bloco-customer{
+                margin:0 auto;
+                width:57%;
+                // border:1px solid blue;
+                height:auto;
+            }
 
-    }
+            .galeria{
+                padding:2%;
+                flex-direction: row;
+                display:flex;
+                width:100%;
+                height:auto;
+                align-items: flex-start;
+
+                .video{
+                    margin:1.5em 0;
+                    width:100%;
+                }
+
+                .subtitle{
+                    text-align:center;
+                    font-size:1.3rem;
+                    // font-family: 'Open Sans', sans-serif;
+                    font-family: 'Roboto', sans-serif;
+                    // font-weight: bold;
+                    color:#333;
+                }
+                // fim da galeria 
+            }
+
+            .testimonials{
+                .depoimentos{
+                    box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+                }
+
+               
+            }
+
+            .contact{
+                width:60%;
+                margin:0 auto;
+            }
+            
+        } // fim do conteudo
+       
+    } // fim do container
 }

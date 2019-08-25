@@ -9,6 +9,7 @@
     
     nav{
         a.navbar-brand{
+            font-size:1.2rem;
             &:hover{
                 border:none;
             }
@@ -18,7 +19,7 @@
             // font-family:'Open Sans', sans-serif;
             font-family: 'Roboto', sans-serif;
             color:#fff;
-            font-size:1.1rem;
+            font-size:0.9rem;
             transition: 0.25s;
             &:hover{
                 transform:scale(1.01);

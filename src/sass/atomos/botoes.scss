@@ -1,0 +1,19 @@
+.generic{
+    transition: border ease-in-out .1s, background ease-in-out .25s;
+    outline:none;
+    border:none;
+    text-align:center;
+    color:#fff;
+    border:1px solid #333;
+    width:100%;
+    padding:2.5%;
+    font-size:1.1rem;
+    font-family: 'Roboto', sans-serif;
+    background:#606060;
+   
+    &:hover{
+        cursor:pointer;
+        background:#1464f6;
+    }
+}
+

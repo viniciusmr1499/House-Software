@@ -1,0 +1,26 @@
+.input-person{
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    background:none;
+    outline:none;
+    width:55%;
+    border:1px solid #333;
+    padding:1.8%;
+    padding-left:5%;
+}
+
+.textarea{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    width:100%;
+    outline:none;
+    background-color: #fff;
+    border:2px solid #bdbdbd; 
+    transition:border-color ease-in-out 1.5s,box-shadow ease-in-out .1s;
+    & :focus{ 
+    }
+}

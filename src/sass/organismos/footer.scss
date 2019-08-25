@@ -1,0 +1,45 @@
+footer{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    // border:1px solid red;
+    .rodape{
+        ul{
+            display: flex;
+            list-style:none;
+            li{
+                padding:0 0.9rem;
+                a{
+                    transition:.2s;
+                    color:gray;
+                    text-decoration:none;
+                    font-family: 'Open Sans', sans-serif;
+                    &:hover{
+                        color:orange;
+                        font-weight: bold;
+                    }
+                }
+            }
+            
+        }
+        .texto-rodape{
+            margin-top:1rem;    
+            display: block;
+            text-align:center;
+            // border:1px solid red;
+            color:gray;
+            font-family: 'Open Sans', sans-serif;
+
+            &:before{
+                display: block;
+                margin:14px auto;
+                content:'';
+                border:1px solid #e7e7e7;
+                width:50%;
+            }
+        }
+
+    } //fim do rodape
+}
