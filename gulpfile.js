@@ -8,7 +8,7 @@ gulp.task('compilar-sass',function(){
         console.log(err)
     }))
     .pipe(concat('style.css'))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('public/css'))
 })
 
 gulp.task('monitorar',function(){
