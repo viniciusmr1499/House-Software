@@ -161,7 +161,7 @@ footer {
       width: 100%;
       height: auto;
       align-items: flex-start; }
-      #main .container .content .galeria .size-element {
+      #main .container .content .galeria .video {
         margin: 1.5em 0;
         width: 100%; }
       #main .container .content .galeria .subtitle {
@@ -169,16 +169,6 @@ footer {
         font-size: 1.3rem;
         font-family: 'Roboto', sans-serif;
         color: #333; }
-      #main .container .content .galeria img {
-        border-radius: 10px;
-        box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);
-        transition: .2s linear; }
-        #main .container .content .galeria img:hover {
-          transform: scale(1.04); }
-      #main .container .content .galeria p {
-        color: #9898a5;
-        text-align: center;
-        font-family: 'Roboto', sans-serif; }
     #main .container .content .testimonials .depoimentos {
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
     #main .container .content .contact {
